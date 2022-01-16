@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+button {
+  padding: 25px;
+  margin: auto 5px;
+  border-radius: 2px;
+  font-size: 1rem;
+
+  &.btn_success {
+    background-color: green;
+    border: 1px solid darkgreen;
+    color: #121212;
+  }
+
+  &.btn_warn {
+    background-color: orange;
+    border: 1px solid darkorange;
+    color: #121212;
+  }
+
+  &.btn_error {
+    background-color: red;
+    border: 1px solid darkred;
+    color: #f5f5f5;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.center-text {
+  text-align: center;
+}

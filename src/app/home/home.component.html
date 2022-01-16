@@ -1,0 +1,7 @@
+<div class="container">
+  <button class="btn_success" (click)="clickFn('3')">Success</button>
+  <button class="btn_error" (click)="clickFn('1')">401 Error</button>
+  <button class="btn_warn" (click)="clickFn('6')">404 Error</button>
+  <button class="btn_error" (click)="clickFn('aa')">400 Error</button>
+  <h1 *ngIf="value$ | async as value">{{ value | json }}</h1>
+</div>

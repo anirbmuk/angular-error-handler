@@ -1,6 +1,17 @@
 {
   "name": "error-handler",
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "description": "Angular 12 application to demonstrate global error handling against a REST-based backend",
+  "author": "anirbmuk",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anirbmuk/ts-node-express.git"
+  },
+  "bugs": {
+    "url": "https://github.com/anirbmuk/ts-node-express/issues"
+  },
+  "homepage": "https://dev.to/anirbmuk/global-error-page-in-angular-3744",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
