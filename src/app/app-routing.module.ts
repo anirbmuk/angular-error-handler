@@ -2,9 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 import { HomeComponent } from './home/home.component';
-import { ErrorhandlerComponent } from './errorhandler/errorhandler.component';
-
-import { ErrorResolver } from './errorhandler/error.resolver';
+import { ErrorhandlerComponent, ErrorResolver } from './errorhandler';
 
 const routes: Routes = [
   {

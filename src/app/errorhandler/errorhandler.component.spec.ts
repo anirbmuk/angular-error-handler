@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ErrorhandlerComponent } from './errorhandler.component';
+import { ErrorhandlerComponent } from '.';
 
 describe('ErrorhandlerComponent', () => {
   let component: ErrorhandlerComponent;
@@ -8,9 +8,8 @@ describe('ErrorhandlerComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ErrorhandlerComponent ]
-    })
-    .compileComponents();
+      declarations: [ErrorhandlerComponent],
+    }).compileComponents();
   });
 
   beforeEach(() => {
