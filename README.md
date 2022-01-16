@@ -4,7 +4,7 @@ Angular 12 application to demonstrate global error handling against a REST-based
 - - - -
 
 # Preview
-![preview](img/preview.gif)   
+![preview](img/Preview.gif)   
 
 - - - -   
 
